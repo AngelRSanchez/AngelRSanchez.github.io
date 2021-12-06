@@ -1,0 +1,358 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Header */
+
+header {
+  background-image: url("./assets/Banner/encabezado.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+header > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header .boxLogo {
+  height: 30vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .boxLogo img {
+  height: 450px;
+}
+
+header .boxTitle {
+  width: 800px;
+  margin: 100px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+header .boxTitle .eslogan {
+  color: #fff;
+  text-align: left;
+  font-size: 44px;
+}
+
+header .boxTitle .subtitle {
+  color: #d5d5d5;
+  text-align: left;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 7.5px;
+}
+
+header .boxTitle .btnInfo {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+/* section */
+
+section.main {
+  width: 100%;
+}
+
+section.main .flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin: 15px auto;
+}
+
+section.main .flex .top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+section.main .flex .top .topLeft {
+  width: 50%;
+}
+
+section.main .flex .top .topLeft h2 {
+  text-align: right;
+  font-size: 78px;
+  color: #01113c;
+}
+
+section.main .flex .top .topLeft h2 span {
+  font-weight: normal;
+}
+
+section.main .flex .top .topRight {
+  margin-left: 30px;
+}
+
+section.main .flex .top .topRight ul {
+  list-style: none;
+}
+
+section.main .flex .top .topRight ul li {
+  margin-bottom: 15px;
+}
+
+section.main .flex .top .topRight ul li p {
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+section.main .flex .top .topRight ul li p > span {
+  color: #01113c;
+  font-weight: bold;
+}
+
+section.main .flex .bottom {
+  width: 100%;
+}
+
+section.main .flex .bottom ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+section.main .flex .bottom ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+}
+
+section.main .flex .bottom ul li span {
+  color: #01113c;
+  font-weight: bold;
+}
+
+/* Beneficios */
+
+section.beneficios {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+section.beneficios .boxBeneficios {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.beneficios .boxBeneficios h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 36px;
+}
+
+section.beneficios .boxBeneficios h2 > span {
+  color: #01113c;
+  font-weight: bold;
+}
+
+section.beneficios .boxBeneficios h3 {
+  margin: 10px;
+  color: #01113c;
+  font-size: 28px;
+}
+
+section.beneficios .boxBeneficios button {
+  background-color: #01113c;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding: 5px 3px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/* somos */
+
+section.somos {
+  width: 100%;
+  background-image: url(./assets/Banner/2\ banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20vh;
+}
+
+section.somos .container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+section.somos .container h2 {
+  text-align: center;
+  color: #c7c7c7;
+  font-weight: normal;
+  padding-top: 40px;
+}
+
+section.somos .container h2 > span {
+  font-weight: bold;
+  color: #fff;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  margin: 30px 0;
+}
+
+footer > div > div > img {
+  width: 250px;
+}
+
+footer .socialMedia > span,
+footer .contacto > span {
+  font-weight: bold;
+  font-size: 20px;
+  color: #01113c;
+}
+
+footer .socialMedia > div {
+  display: flex;
+  align-items: center;
+}
+
+footer .socialMedia > div > img {
+  margin: 0 2.5px;
+}
+
+footer .contacto > span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+footer .contacto > p {
+  margin-bottom: 10px;
+}
+
+
+footer > span {
+  width: 100%;
+  background-color: #01113c;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  header .boxTitle {
+    width: auto;
+    align-items: center;
+  }
+
+  header .boxTitle .eslogan {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  header .boxTitle .subtitle {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .flex {
+    width: 100% !important;
+  }
+
+  .top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom ul {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .boxBeneficios {
+    width: 100% !important;
+  }
+
+  .boxBeneficios h2 {
+    font-size: 24px !important;
+  }
+
+  .boxBeneficios h3 {
+    font-size: 20px !important;
+  }
+
+  .boxBeneficios button {
+    font-size: 18px !important;
+  }
+
+  section.somos .container {
+    width: 100%;
+  }
+
+  section.somos .container h2 {
+    font-size: 18px;
+  }
+
+  footer > div {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  footer > div > div {
+    margin: 20px 0;
+  }
+
+  footer .socialMedia > span,
+  footer .contacto > span {
+    display: block;
+    text-align: center;
+}
+}
