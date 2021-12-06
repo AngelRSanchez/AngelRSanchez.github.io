@@ -286,6 +286,10 @@ footer > span {
 
 @media screen and (max-width: 768px) {
 
+  header .boxLogo img {
+    width: 350px;
+  }
+
   header .boxTitle {
     width: auto;
     align-items: center;
