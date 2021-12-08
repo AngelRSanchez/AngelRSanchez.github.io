@@ -68,6 +68,7 @@ header .boxTitle .btnInfo {
   -o-border-radius: 5px;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
 /* section */
@@ -191,6 +192,7 @@ section.beneficios .boxBeneficios button {
   font-size: 22px;
   letter-spacing: 2px;
   padding: 5px 3px;
+  cursor: pointer;
   border: none;
   outline: none;
   border-radius: 5px;
