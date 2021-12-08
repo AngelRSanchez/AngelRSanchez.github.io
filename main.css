@@ -358,8 +358,20 @@ footer > span {
   }
 }
 
+@media screen and (max-width: 1025px) and ( max-height: 1366px) {
+  section.somos {
+    height: 10vh;
+  }
+}
 
 @media screen and (max-width: 768px) {
+  section.somos {
+    height: 12vh;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
 
   header .boxLogo img {
     width: 350px;
@@ -424,7 +436,9 @@ footer > span {
   }
 
   section.somos .container h2 {
-    font-size: 18px;
+    font-size: 20px;
+    padding-top: 12.5px;
+
   }
 
   footer > div {
@@ -451,4 +465,16 @@ footer > span {
     align-items: center;
   }
 
+}
+
+@media screen and (max-width: 400px) {
+  section.somos .container h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  section.somos .container h2 {
+    font-size: 18px;
+  }
 }
